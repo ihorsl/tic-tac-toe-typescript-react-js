@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.restartButton {
+    font-size: $mainFont;
+    width: $mainFont * 10;
+    height: $mainFont * 1.75;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    user-select: none;
+
+    &:active {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+}
+
+.light {
+    color: $lightThemeFont;
+    border-color: $lightThemeBorder;
+}
+
+.dark {
+    color: $darkThemeFont;
+    border-color: $darkThemeBorder;
+    background-color: $darkThemeBackground;
+}

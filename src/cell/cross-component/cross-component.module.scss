@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.cross {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    stroke-width: 3px;
+}
+
+.lineXLight {
+    stroke: $xColorDark;
+}
+
+.lineOLight {
+    stroke: $oColorDark;
+}
+
+.lineXDark {
+    stroke: $xColorLight;
+}
+
+.lineODark {
+    stroke: $oColorLight;
+}

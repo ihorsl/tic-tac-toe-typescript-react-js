@@ -1,0 +1,52 @@
+@import './variables.scss';
+
+.app {
+    max-width: 400px;
+    border: 1px solid;
+    border-radius: $mainFont * 0.2;
+}
+
+.appThemeLight {
+    color: $lightThemeFont;
+    background-color: $lightThemeBackground;
+    border-color: $lightThemeBorder;
+}
+
+.appThemeDark {
+    color: $darkThemeFont;
+    background-color: $darkThemeBackground;
+    border-color: $darkThemeBorder;
+}
+
+.headerControls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.playerPicker {
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.themePicker {
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.cellsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.25rem;
+}
+
+.cellInGrid {
+    aspect-ratio: 1;
+    margin: 0.25rem;
+    position: relative;
+}
+
+.restartButtonWrapper {
+    text-align: right;
+    margin: 0.5rem;
+}

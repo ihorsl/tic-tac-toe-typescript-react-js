@@ -1,0 +1,36 @@
+@import '../variables.scss';
+
+.div {
+    font-size: $mainFont;
+}
+
+.divLight {
+    color: $lightThemeFont;
+    background-color: $lightThemeBackground;
+}
+
+.divDark {
+    color: $darkThemeFont;
+    background-color: $darkThemeBackground;
+}
+
+.select {
+    font-size: $mainFont;
+    padding: ($mainFont * 0.2) ($mainFont * 0.4);
+    width: $mainFont * 10;
+    height: $mainFont * 1.75;
+    border: 1px solid;
+    border-radius: $mainFont * 0.2;
+    outline:none;
+}
+
+.selectLight {
+    border-color: $lightThemeBorder;
+}
+
+.selectDark {
+    border-color: $darkThemeBorder;
+}
+
+
+

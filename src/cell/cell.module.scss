@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.cell {
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.cellLight {
+    border-color: $lightThemeBorder;
+}
+
+.cellDark {
+    border-color: $darkThemeBorder;
+}
